@@ -210,6 +210,10 @@ font-size: clamp(1.5rem, 3vw, 5rem);
   margin-top: 1rem;
 }
 
+#profile .section__pic-container img{
+  border-radius: 50%;
+}
+
 /* ICONS */
 
 .icon {
