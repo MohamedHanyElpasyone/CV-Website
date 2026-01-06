@@ -227,6 +227,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
   display: flex;
   justify-content: center;
   gap: 1rem;
+  align-items: center;
 }
 
 .btn {
@@ -369,7 +370,7 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 1rem 0;
   color: black;
 }
 
@@ -381,6 +382,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-btn:hover{
+  text-decoration: none;
 }
 
 #projects {
