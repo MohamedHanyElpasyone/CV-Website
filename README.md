@@ -3,6 +3,9 @@
 A personal CV / portfolio website built using **HTML, CSS, and JavaScript**.  
 This project showcases my skills, projects, and experience as a **Front-End Developer**.
 
+## Version
+v1.0.0 – Initial portfolio release
+
 ##    Features
 - Responsive layout (desktop & mobile)
 - Modern UI with Flexbox and CSS Grid
