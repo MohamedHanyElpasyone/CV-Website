@@ -1,3 +1,23 @@
+/* CSS VARIABLES */
+
+:root{
+  /* FONTS */
+
+  --poppins: "Poppins", sans-serif;
+
+  /* COLORS */
+
+  --color-p: rgb(85, 85, 85);
+
+  --black-a: black;
+
+  --black-project-title: black;
+
+  --project-btn-color: black;
+
+  
+}
+
 /* General */
 
 * {
@@ -6,7 +26,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--poppins);
 }
 
 html {
@@ -21,7 +41,7 @@ main {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: var(--color-p);
   font-size: clamp(0.8rem,1.6vw,3rem);
 }
 
@@ -58,7 +78,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: var(--black-a);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -121,7 +141,6 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
   transition: all 0.3s ease-in-out;
 }
 
@@ -270,10 +289,6 @@ font-size: clamp(1.5rem, 3vw, 5rem);
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container {
-  gap: 1rem;
-}
-
 /* ABOUT SECTION */
 
 #about {
@@ -351,7 +366,7 @@ article .icon {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: var(--color-p);
   font-weight: 600;
   font-size: clamp(1.3rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
@@ -376,7 +391,7 @@ article .icon {
 
 .project-title {
   margin: 1rem 0;
-  color: black;
+  color: var(--black-project-title);
 }
 
 .color-container {
@@ -385,7 +400,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: var(--project-btn-color);
   border-color: rgb(163, 163, 163);
 }
 
