@@ -12,22 +12,22 @@
   .projects-container .project-container {
     min-width: auto;
   }
-  .arrow{
+  .arrow {
     display: none;
   }
 }
 
 @media screen and (max-width: 455px) {
-    .details-container{
-        padding: 0;
-    }
-    #projects .experience-details-container{
-        width: 200px;
-    }
-    .projects__title{
-        margin: 0;
-    }
-    .project-container{
-        width: 100%;
-    }
+  .details-container {
+    padding: 0;
+  }
+  #projects .experience-details-container {
+    width: 200px;
+  }
+  .projects__title {
+    margin: 0;
+  }
+  .project-container {
+    width: 100%;
+  }
 }

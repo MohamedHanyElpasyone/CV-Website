@@ -1,6 +1,6 @@
 /* CSS VARIABLES */
 
-:root{
+:root {
   /* FONTS */
 
   --poppins: "Poppins", sans-serif;
@@ -14,8 +14,6 @@
   --black-project-title: black;
 
   --project-btn-color: black;
-
-  
 }
 
 /* General */
@@ -42,10 +40,10 @@ main {
 
 p {
   color: var(--color-p);
-  font-size: clamp(0.8rem,1.6vw,3rem);
+  font-size: clamp(0.8rem, 1.6vw, 3rem);
 }
 
-.btn.disabled-button{
+.btn.disabled-button {
   pointer-events: none;
   background: #737373;
   color: white;
@@ -198,7 +196,7 @@ section {
   justify-content: center;
 }
 
-.section__pic-container img{
+.section__pic-container img {
   width: clamp(20rem, 50vw, 100rem);
 }
 
@@ -212,7 +210,7 @@ section {
 }
 
 .section__text__p2 {
-font-size: clamp(1.5rem, 3vw, 5rem);
+  font-size: clamp(1.5rem, 3vw, 5rem);
   margin-bottom: 1rem;
   text-align: center;
   color: rgb(53, 53, 53);
@@ -223,7 +221,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
 }
 
 .title {
-  font-size: clamp(2rem,4.5vw,5rem);
+  font-size: clamp(2rem, 4.5vw, 5rem);
   text-align: center;
 }
 
@@ -234,7 +232,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
   margin-top: 1rem;
 }
 
-#profile .section__pic-container img{
+#profile .section__pic-container img {
   border-radius: 50%;
 }
 
@@ -242,7 +240,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
 
 .icon {
   cursor: pointer;
-  height: clamp(1.5rem , 2.5vw , 3rem);
+  height: clamp(1.5rem, 2.5vw, 3rem);
 }
 
 /* BUTTONS */
@@ -314,7 +312,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
 
 .about-pic {
   border-radius: 2rem;
-  width: clamp(1rem,auto,4rem);
+  width: clamp(1rem, auto, 4rem);
 }
 
 .arrow {
@@ -340,7 +338,7 @@ font-size: clamp(1.5rem, 3vw, 5rem);
   justify-content: center;
 }
 
-.text-container{
+.text-container {
   text-align: justify;
 }
 
@@ -376,7 +374,7 @@ article .icon {
   width: 80vw;
 }
 
-#experience .experience-details-container .details-container{
+#experience .experience-details-container .details-container {
   padding: 0;
 }
 
@@ -404,7 +402,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-.project-btn:hover{
+.project-btn:hover {
   text-decoration: none;
 }
 
@@ -473,7 +471,7 @@ article .icon {
 }
 
 .contact-info-container p {
-  font-size: clamp(0.8rem,1.6vw,3rem);
+  font-size: clamp(0.8rem, 1.6vw, 3rem);
 }
 
 .contact-icon {
@@ -481,7 +479,7 @@ article .icon {
 }
 
 .email-icon {
-  height: clamp(2rem,3vw,3.5rem);
+  height: clamp(2rem, 3vw, 3.5rem);
 }
 
 /* FOOTER */
@@ -489,7 +487,6 @@ article .icon {
 footer {
   margin: 0 1rem;
   height: 26vh;
-
 }
 
 footer p {
