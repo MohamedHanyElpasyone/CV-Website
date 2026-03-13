@@ -34,5 +34,5 @@ This project showcases my skills, projects, and experience as a **Front-End Deve
 Actively improving and optimizing
 
 ## 📬 Contact
-Feel free to reach out via the contact section on the website.
+Feel free to reach out via the contact section on [my website](https://mhany-dev-portfolio.netlify.app).
 
