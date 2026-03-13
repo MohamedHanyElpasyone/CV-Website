@@ -31,3 +31,9 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .article-container .experience__row {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
+  }
+}
