@@ -4,15 +4,13 @@ A personal CV / portfolio website built using **HTML, CSS, and JavaScript**.
 This project showcases my skills, projects, and experience as a **Front-End Developer**.
 
 ## Version
-**v1.1.1 – Performance improvements & code refactoring**
+**v1.2.1 – Performance improvements & code refactoring**
 
 ### Changes:
 - **HTML**
-  - Removed unnecessary arrow in CV projects section
-  - Removed last arrow's `id`
-- **CSS**
-  - Removed redundant `.btn-container` class
-  - Refactored CSS to use variables for better maintainability
+  - Active CV Download button
+  - Remove resume example
+  - Add my resume as the CV Download button goes to  
 
 ## Features
 - Responsive layout (desktop & mobile)
@@ -31,7 +29,7 @@ This project showcases my skills, projects, and experience as a **Front-End Deve
 
 
 ## 📂 Project Status
-Actively improving and optimizing
+**Done**
 
 ## 📬 Contact
 Feel free to reach out via the contact section on [my website](https://mhany-dev-portfolio.netlify.app).
